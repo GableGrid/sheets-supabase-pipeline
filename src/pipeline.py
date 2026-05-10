@@ -3,7 +3,7 @@ from google.oauth2.service_account import Credentials
 import requests
 
 # Google Sheets Authentication
-JSON_FILE = "credentials.json"
+JSON_FILE = r"G:\GableGrid\sheets-supabase-pipeline\src\credentials.json"
 SHEET_ID = "1gwQc7xDulDfw1ES37SmsWJwECHg-oEdOVADYdCnzrE8"
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
